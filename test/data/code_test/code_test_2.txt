@@ -26,7 +26,7 @@ int main() {
 	printf("3: %d %d %d\n",a,b,c);
 	{
 		gc = 102;
-		const int gc = c+ga;
+		const int c = 11071, gc = c + ga;
 		int ga = 243 + gc;
 		int gb = a;
 		printf("4: %d %d %d\n",ga,gb,gc);
